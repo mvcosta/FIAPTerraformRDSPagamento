@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
     bucket = "terraform-backend-mv"
-    key    = "db-status"
+    key    = "db-pagamento"
     region = "us-east-1"
   }
 }
